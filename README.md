@@ -4,6 +4,9 @@ I'm JackMacWindows, a seasoned programmer focusing on writing cool [ComputerCraf
 
 ![banner](2025-03-12_08.08.21.webp)
 
+<details>
+  <summary>Read more...</summary>
+
 My most well-known project is [CraftOS-PC](https://www.craftos-pc.cc), a CC emulator which I've been working on since 2018, and has become a staple of the community, acting as the de facto pick for emulation. It's on the backburner for now, as I consider it pretty much complete, but I try to keep it maintained as best I can.
 
 My favorite project is [Phoenix](https://phoenix.madefor.cc), a full-blown operating system (NOT a fake "OS") for CC. It's a comprehensive project consisting of everything from the kernel to a desktop, with lots of real OS design going into it. The kernel is a mostly monolithic design, featuring preemptive multitasking, a virtual filesystem layer, a device tree with drivers, full TCP/IP networking, and more. On top of the kernel is a suite of libraries: `libsystem` and `libcraftos` for core OS functions (the former being native system calls, and the latter being a reimplementation of CC's CraftOS APIs), plus a bunch of utility libraries for archiving, compression, package management, and more. A POSIX userspace keeps the system familiar to Linux users, with well-known Unix and Linux commands available, including a Bourne-compatible shell interpreter, plus various "manager" services. Finally, a desktop environment inspired by macOS and KDE provides friendly user interaction on top (not available yet).
@@ -27,3 +30,5 @@ Outside of CC, I've made a couple of cool things too:
 I have a [blog on dev.to](https://dev.to/jackmacwindows) that I sometimes post on; if you want to hear my ramblings about random things I made, then check it out.
 
 If you need to contact me, I'm always on Discord (unfortunately) at `@jackmacwindows`, usually lurking in the [CC Discord](https://discord.computercraft.cc). For business inquiries, contact me at ![email](https://github.com/user-attachments/assets/c2e9020e-b591-4c46-a145-4cdf721127fe) (note that Discord is *highly* preferred).
+
+</details>
