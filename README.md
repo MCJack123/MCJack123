@@ -2,6 +2,8 @@
 
 I'm JackMacWindows, a seasoned programmer focusing on writing cool [ComputerCraft](https://github.com/cc-tweaked/CC-Tweaked) programs. I mainly write C/C++ and Lua code, with my passion being embedded and operating system development, but I dabble in various other things too.
 
+![banner](2025-03-12_08.08.21.webp)
+
 My most well-known project is [CraftOS-PC](https://www.craftos-pc.cc), a CC emulator which I've been working on since 2018, and has become a staple of the community, acting as the de facto pick for emulation. It's on the backburner for now, as I consider it pretty much complete, but I try to keep it maintained as best I can.
 
 My favorite project is [Phoenix](https://phoenix.madefor.cc), a full-blown operating system (NOT a fake "OS") for CC. It's a comprehensive project consisting of everything from the kernel to a desktop, with lots of real OS design going into it. The kernel is a mostly monolithic design, featuring preemptive multitasking, a virtual filesystem layer, a device tree with drivers, full TCP/IP networking, and more. On top of the kernel is a suite of libraries: `libsystem` and `libcraftos` for core OS functions (the former being native system calls, and the latter being a reimplementation of CC's CraftOS APIs), plus a bunch of utility libraries for archiving, compression, package management, and more. A POSIX userspace keeps the system familiar to Linux users, with well-known Unix and Linux commands available, including a Bourne-compatible shell interpreter, plus various "manager" services. Finally, a desktop environment inspired by macOS and KDE provides friendly user interaction on top (not available yet).
